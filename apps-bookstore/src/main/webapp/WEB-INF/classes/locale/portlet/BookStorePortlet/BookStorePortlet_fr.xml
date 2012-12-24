@@ -2,38 +2,38 @@
 <bundle>
   <UIAddBookForm>
     <label>
-      <UITitleStringInput>Title</UITitleStringInput>
-      <UIPriceStringInput>Price</UIPriceStringInput>
+      <UITitleStringInput>Titre</UITitleStringInput>
+      <UIPriceStringInput>Prix</UIPriceStringInput>
     </label>
     <action>
-      <Save>Save</Save>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Cancel>Cancel</Cancel>
+      <Save>Enregistrer</Save>
+      <Edit>Editer</Edit>
+      <Delete>Supprimer</Delete>
+      <Cancel>Annuler</Cancel>
     </action>
   </UIAddBookForm>
   <UIEditBookForm>
     <label>
-      <UITitleStringInput>Title</UITitleStringInput>
-      <UIPriceStringInput>Price</UIPriceStringInput>
+      <UITitleStringInput>Titre</UITitleStringInput>
+      <UIPriceStringInput>Prix</UIPriceStringInput>
     </label>
     <action>
-      <Save>Save</Save>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Cancel>Cancel</Cancel>
+      <Save>Enregistrer</Save>
+      <Edit>Editer</Edit>
+      <Delete>Supprimer</Delete>
+      <Cancel>Annuler</Cancel>
     </action>
   </UIEditBookForm>
    <UIDeleteBookForm>
     <label>
-      <UITitleStringInput>Title</UITitleStringInput>
-      <UIPriceStringInput>Price</UIPriceStringInput>
+      <UITitleStringInput>Titre</UITitleStringInput>
+      <UIPriceStringInput>Prix</UIPriceStringInput>
     </label>
     <action>
-      <Save>Save</Save>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Cancel>Cancel</Cancel>
+      <Save>Enregistrer</Save>
+      <Edit>Editer</Edit>
+      <Delete>Supprimer</Delete>
+      <Cancel>Annuler</Cancel>
     </action>
   </UIDeleteBookForm>
 </bundle>

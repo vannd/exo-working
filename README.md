@@ -1,2 +1,3 @@
 bookstore
 =========
+Removed unnecessary files.

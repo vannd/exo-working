@@ -1,0 +1,3 @@
+<div class="$uicomponent.id">
+    <div style="color: red; font-weight: bold; font-size: 30px;"><%= uicomponent.getText() %></div>
+</div>

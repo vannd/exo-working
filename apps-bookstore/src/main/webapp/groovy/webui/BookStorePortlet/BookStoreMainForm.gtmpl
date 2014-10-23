@@ -9,6 +9,9 @@
     import org.exoplatform.webui.core.UIPopupWindow;
  
     def bookList = uicomponent.getBookList();
+    def rcontext = _ctx.getRequestContext();
+    rcontext.getJavascriptManager().require("SHARED/webui-ext", "webuiExt");
+    
     
 %>
 

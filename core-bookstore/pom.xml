@@ -40,6 +40,14 @@
       <version>1.14.0-CR2</version>
       <scope>provided</scope>
     </dependency>
+   <!--REST service dependency  -->
+   <dependency>
+     <groupId>org.exoplatform.ws</groupId>
+     <artifactId>exo.ws.rest.core</artifactId>
+     <version>2.2.0-CR2</version>
+     <scope>provided</scope>
+   </dependency>
+   
   </dependencies>
   
 </project>

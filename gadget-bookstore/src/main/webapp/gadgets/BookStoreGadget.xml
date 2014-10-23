@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Module>
+  <ModulePrefs author="eXoPlatform" 
+               title="Book Store App"
+               directory_title="Book Store Gadget"
+               description="The Book List gadget">
+  </ModulePrefs>
+  
+  <Content type="html">
+  <![CDATA[
+    <head>
+      <link type="text/css" rel="stylesheet" href="/exo-gadget-resources/skin/exo-gadget/gadget-common.css" />
+      <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script language="javascript" type="text/javascript" src="js/jquery.simpletip-1.3.1.min.js"></script>
+      <script type="text/javascript">
+                        
+        function listBook(){
+          
+          $.getJSON("/rest/bookstore/getAll", function(books){
+            if (books.length){
+               $.each(books, function(i, book){
+                 var bookrow = '<tr><td>' + book.title + '</td><td>' + book.price + '</td><td>edit</td><td>delete</td></tr>';
+                 $("#bookList tr:last").after(bookrow);
+               });
+            }
+<!--           gadgets.window.adjustHeight(); -->
+            
+          });
+        }
+        gadgets.util.registerOnLoadHandler(listBook);
+      </script>
+      
+    </head>
+    
+    <body >
+      <h1>Welcome to Book Store Gadget Application</h1>
+      <table border="1" id = "bookList">
+        <tr>
+          <td>Title</td>
+          <td>Price</td>
+          <td>Edit</td>
+          <td>Delete</td>
+        </tr>
+      </table>
+      <a href = "#">Add new book </a>
+    </body>
+
+  ]]>
+  </Content>
+</Module>

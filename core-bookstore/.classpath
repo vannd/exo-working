@@ -23,7 +23,7 @@
 	<classpathentry kind="var" path="M2_REPO/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar" sourcepath="M2_REPO/xpp3/xpp3/1.1.4c/xpp3-1.1.4c-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/exoplatform/kernel/exo.kernel.container/2.3.0-CR2/exo.kernel.container-2.3.0-CR2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/exoplatform/kernel/exo.kernel.container/2.3.0-CR2/exo.kernel.container-2.3.0-CR2.jar" sourcepath="/M2_REPO"/>
 	<classpathentry kind="var" path="M2_REPO/org/exoplatform/tool/exo.tool.framework.junit/1.2.1-GA/exo.tool.framework.junit-1.2.1-GA.jar" sourcepath="M2_REPO/org/exoplatform/tool/exo.tool.framework.junit/1.2.1-GA/exo.tool.framework.junit-1.2.1-GA-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.2/junit-3.8.2.jar" sourcepath="M2_REPO/junit/junit/3.8.2/junit-3.8.2-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/picocontainer/picocontainer/1.1/picocontainer-1.1.jar"/>

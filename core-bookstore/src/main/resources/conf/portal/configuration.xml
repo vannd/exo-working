@@ -14,7 +14,10 @@
     <key>org.exoplatform.bookstore.BookStoreService</key>
     <type>org.exoplatform.bookstore.BookStoreServiceImpl</type>
   </component>
-  
+  <!-- Register BookStore Rest service  -->
+  <component>
+    <type>org.exoplatform.bookstore.BookStoreRestService</type>
+  </component>
   
   <!-- This part use a plugin to register the declared nodetype in the book-nodetypes.xml   -->
     <external-component-plugins>

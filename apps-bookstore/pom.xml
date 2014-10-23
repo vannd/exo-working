@@ -12,26 +12,25 @@
     
       <!-- We depend on portal's webui -->
         <dependency>
-            <groupId>org.exoplatform.portal</groupId>
+            <groupId>org.gatein.portal</groupId>
             <artifactId>exo.portal.webui.core</artifactId>
-            <version>3.2.7-PLF-SNAPSHOT</version>
+            <version>3.5.12-PLF</version>
             <scope>provided</scope>
         </dependency>
  
         <dependency>
-            <groupId>org.exoplatform.portal</groupId>
+            <groupId>org.gatein.portal</groupId>
             <artifactId>exo.portal.webui.eXo</artifactId>
-            <version>3.2.7-PLF-SNAPSHOT</version>
+            <version>3.5.12-PLF</version>
             <scope>provided</scope>
         </dependency>
  
         <dependency>
-            <groupId>org.exoplatform.portal</groupId>
+            <groupId>org.gatein.portal</groupId>
             <artifactId>exo.portal.webui.portal</artifactId>
-            <version>3.2.7-PLF-SNAPSHOT</version>
+            <version>3.5.12-PLF</version>
             <scope>provided</scope>
         </dependency>
-
         
        <!-- We depend on the bookstore service --> 
         <dependency>

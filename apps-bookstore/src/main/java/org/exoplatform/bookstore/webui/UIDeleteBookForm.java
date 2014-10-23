@@ -73,7 +73,6 @@ public class UIDeleteBookForm extends UIForm {
       //back to BookStoreView
       UIPopupWindow uiPopupWindow = deleteForm.getParent();
       uiPopupWindow.setShow(false);
-      
     }
     
     
